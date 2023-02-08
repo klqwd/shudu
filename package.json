@@ -1,0 +1,90 @@
+{
+  "name": "admin-pro",
+  "version": "2.1.0",
+  "private": true,
+  "author": "chuzhixin",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lint:eslint": "eslint {src,mock}/**/*.{vue,js} --fix",
+    "lint:prettier": "prettier {src,mock}/**/*.{html,vue,css,sass,scss,js,md} --write",
+    "lint:stylelint": "stylelint {src,mock}/**/*.{html,vue,css,sass,scss} --fix --cache --cache-location node_modules/.cache/stylelint/"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "core-js": "^3.27.1",
+    "dayjs": "^1.11.7",
+    "echarts": "^5.4.1",
+    "element-ui": "2.15.12",
+    "js-cookie": "^3.0.1",
+    "jsencrypt": "^3.3.1",
+    "jsplumb": "^2.15.6",
+    "lodash": "^4.17.21",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "qs": "^6.11.0",
+    "resize-detector": "^0.3.0",
+    "sass": "1.32.13",
+    "screenfull": "5.2.0",
+    "vab-icons": "file:vab-icons",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.26.8",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-plugin-router": "^4.5.15",
+    "@vue/cli-plugin-vuex": "^4.5.15",
+    "@vue/cli-service": "^4.5.15",
+    "@vue/eslint-config-prettier": "6.0.0",
+    "body-parser": "^1.20.1",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "compression-webpack-plugin": "6.1.1",
+    "eslint": "6.8.0",
+    "eslint-plugin-prettier": "3.4.1",
+    "eslint-plugin-vue": "^8.2.0",
+    "filemanager-webpack-plugin": "3.1.1",
+    "image-webpack-loader": "^8.1.0",
+    "lint-staged": "^13.1.0",
+    "plop": "^3.0.5",
+    "postcss": "^8.4.20",
+    "postcss-html": "^1.5.0",
+    "postcss-jsx": "^0.36.4",
+    "postcss-scss": "^4.0.6",
+    "postcss-syntax": "^0.36.2",
+    "prettier": "^2.8.1",
+    "raw-loader": "^4.0.2",
+    "sass": "1.32.13",
+    "sass-loader": "10.2.0",
+    "stylelint": "^14.16.1",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-recess-order": "^3.1.0",
+    "svg-sprite-loader": "^6.0.11",
+    "vue-eslint-parser": "^8.0.1",
+    "webpack": "4.46.0",
+    "webpackbar": "^5.0.2"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "homepage": "https://chu1204505056.gitee.io/admin-pro",
+  "license": "Mozilla Public License Version 2.0",
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  },
+  "participants": [
+    "LiufengFish"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vue-admin-beautiful/admin-pro.git"
+  }
+}

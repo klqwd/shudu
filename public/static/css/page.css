@@ -1,0 +1,45 @@
+.el-input.is-disabled ::v-deep .el-input__inner {
+    color: #606266;
+  }
+.el-input input {
+    color: black !important;
+  }
+ /* .el-select {
+    width: 380px;
+  } */
+.el-table{
+  /* padding:20px; */
+  margin:20px;
+  width:auto !important;
+  
+  /* width:1156px !important */
+
+}
+ .el-select{
+  width:100%;
+ } 
+
+
+ 
+ .el-date-editor.el-input, .el-date-editor.el-input__inner {
+  width:100% !important
+}
+.offset {
+  /* position: relative; */
+  width: auto;
+  min-height: 100%;
+  margin-top: 20px;
+  background-color: #fff;
+  margin-left: 296px;
+  margin-right: 30px;
+  border:solid 1px #eef2f6
+}
+.tabs{
+  margin-top:100px;
+  margin-left:296px;
+  margin-right: 30px;
+}
+
+/* .el-date-editor.el-input, .el-date-editor.el-input__inner {
+width: 400px !important;
+} */
